@@ -1,0 +1,1011 @@
+@charset "utf-8";
+/*                        MAIN PAGE CSS STARTS HERE                       */
+
+
+
+
+
+
+
+
+
+/**************************BODY AND DIVISION CSS**************************/
+* {
+	padding:0px;
+	margin:0px;
+	border:0px;
+	list-style: none;
+}
+
+header, footer, article, section, aside{
+	display: block;
+}
+
+body {
+	font-family: Tahoma;
+	background-color: #fff;
+	color: #333;
+}
+/**************************LOGIN AREA CSS**************************/
+#whole_head{
+	margin: auto;
+	background-color: #1E3F75;
+	clear: both;
+	position: relative;
+	min-width: 960px;
+	width: 100%;
+	text-align: center;
+}
+#header{
+	margin: auto;
+	background: url(masthead_abstract.gif) no-repeat;
+}
+#one{
+	margin: auto;
+	background: url(header_mask.png);
+	height: 108px;
+	border-bottom: 1px solid #0B2740;
+	text-align: center;
+}
+#logo{
+	background: url(logo_1.png) no-repeat;
+	height: 80px;
+	width: 300px;
+	margin: 0px;
+	margin: auto;
+}
+#headline{
+	height: 25px;
+	border-top: 1px solid #33568E;
+	border-bottom: 1px solid #333;
+	background: url(gradient_30_down_25.png);
+	padding-left: 253px;
+	text-align: center;
+	margin: auto;
+}
+#headline #whole_nav{
+	width: 480px;
+	margin: auto;
+	height:80px;
+}
+#extra{
+	margin: auto;
+	margin-right: 565px;
+	display: block;
+}
+#header-space{
+	margin: auto;
+	height: 20px;
+	background: #F2F2F2 url(breadcrumb_gradient_10.png) 0 0 repeat-x;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+#container{
+	background: #fff;
+	margin: auto;											
+	width: auto;
+	width: 845px;	
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+#login_area{
+	display: none;
+	background: #3F3F3F url(eyeglass.jpg) 0 100% repeat-x;
+	width: 625px;
+	height: 316px;
+	float: left;
+	margin-bottom: 20px;
+}
+.clockStyle {
+	margin-left: 760px;
+	color:#fff;
+    font-size:12px;
+	display:inline;
+	padding: 10px;
+}
+.header_login{
+	height: 40px;
+	font-family: Tahoma;
+	text-align: left;
+	font-size: 98%;
+	letter-spacing: 2px;
+	margin: 3px;
+	padding-top: 15px;
+	padding-left: 30px;
+	cursor: pointer;
+	color: #1182f4;
+	width: auto;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.botton li{
+	display: inline-block;
+}
+.botton .regbotton{
+	margin-left: 40px;
+	cursor: pointer;
+	color: #1182f4;
+}
+.botton .regbotton:hover{
+	width: 85px;
+	margin-left: 20px;
+	text-align: center;
+	padding: 7px;
+	border-bottom: 1px solid #1182f4;
+}
+
+.botton{
+	margin-top: 30px;
+	margin-bottom: 17px;
+}
+input[type="file"]{
+	margin-left: 30px;
+}
+input[type="text"]{
+	width: 210px;
+	height: 15px;
+	font-size: 11px;
+	margin-left: 30px;
+	color: #000;
+	border: 1px solid #ccc;
+}
+input[type="password"]{
+	width: 210px;
+	height: 15px;
+	font-size: 11px;
+	margin-left: 30px;
+	color: #000;
+	border: 1px solid #ccc;
+}
+input[type="submit"]{
+	width: 100px;
+	height: 20px;
+	font-size: 98%;
+	margin-left: 30px;
+	margin-top: 20px;
+	border: 1px solid gray;
+}
+	input[type="submit"]:hover{
+		background: url(header_mask.png);
+	}
+
+
+/**************************CENTER AREA CSS**************************/
+#center_area{
+	float: left;
+	width: 625px;
+	height: 316px;
+	overflow: auto;
+	display: none;
+}
+#image{
+	width: 625px;
+	height: 316px;
+	float: left;
+	background: url(add_data_bg.jpg);
+}
+
+#description{
+	display: none;
+	height: 316px;
+	width: 625px;
+	margin-bottom: 20px;
+}
+
+#description2{
+	height: 316px;
+	display: none;
+	width: 625px;
+	margin-bottom: 20px;
+}
+
+#description3{
+	height: 316px;
+	display: none;
+	width: 625px;
+	margin-bottom: 20px;
+}
+
+#description4{
+	height: 316px;
+	display: none;
+	width: 625px;
+	margin-bottom: 20px;
+}
+
+.desc_head{
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-family: tahoma;
+	padding: 5px 5px;
+	width: 200px;
+	margin-left: 3px; 
+	margin-bottom: 5px;
+	color: #1182f4;
+}
+.desc_page{
+	color: #333;
+	font-size: 15px;
+}
+.other{
+	color: #333;
+	margin-bottom: 10px;
+}
+.disc{
+	list-style: disc;
+	margin-left: 20px;
+	margin-top: 7px;
+	font-size: 16px;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size: 18px;
+	margin-left: 5px;
+	margin-top: 10px;
+	letter-spacing: 3px;
+}
+.readhide{
+	margin-left:400px;
+}
+.read_more{
+	color: #1182f4;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-family: tahoma;
+	cursor: pointer;
+}
+.hide{
+	color: #1182f4;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-family: tahoma;
+	cursor: pointer;
+	margin-left: 50px;
+}
+/**************************COMMENT AREA CSS**************************/
+#comment_area{
+	float: left;
+	width: 625px;
+	height: 316px;
+	display: none;
+	margin: 0px;
+	background: url(orbg.jpg);
+}
+#comment_area #welcome{
+	color: #fff;
+	font-size: 14px;
+	padding: 5px;
+	background:#333;
+	width:600px;
+	-webkit-border-radius: 0px 5px 0px 5px;
+	-moz-border-radius: 0px 5px 0px 5px;
+	border-radius: 0px 5px 0px 5px;
+}
+#comment_area table{
+	margin-top: 30px;
+}
+#comment_area table tr td{
+	margin: 30px;
+}
+
+#ordinary_login{
+	float: left;
+	width: 625px;
+	height: 316px;
+	margin: 0px;
+	background: url(olbg.jpg);
+}
+#ordinary_login h1{
+	color: #fff;
+	padding: 15px;
+	margin-top: 10px;
+	background: #333;
+	font-family:"Arial Narrow";
+}
+#ordinary_login #login_form{
+	padding: 50px;
+}
+/**************************REGISTER AREA CSS**************************/
+#register_area{
+	display: none;
+	background: #3F3F3F url(registerbg.jpg) 0 100% repeat-x;
+	width: 625px;
+	height: 316px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.text{
+	padding-left: 30px;
+	color: #000;
+	margin-top: 0px;
+	width: auto;
+	font-size: 10px;
+}
+
+.cancelbotton{
+	margin-left: 60px;
+	cursor: pointer;
+	color: #1182f4;
+}
+.cancelbotton a{
+	color: #1182f4;
+}
+.cancelbotton:hover{
+	width: 95px;
+	margin-left: 10px;
+	text-align: center;
+	padding: 8px;
+	border-bottom: 1px solid #1182f4;
+}
+/**********************************END*********************************/
+
+
+
+/**************************MAIN INDEX CSS**************************/
+/*********leftSIDE BAR********/
+#left{
+	background: url(getstarted_background.gif) no-repeat;
+	width: 200px;
+	height: 350px;
+	float: left;
+	margin: auto;
+	margin-right: 20px;
+}
+
+.add{
+	background: url(link_bg.png);
+	font-size: 11px;
+	color: #fff;
+	margin: 0px;
+	margin-top: 3px;
+	margin-bottom: 4px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+	.add:hover{
+		background: url(header_mask.png);
+		color: aqua;
+	}
+.browse{
+	background: url(link_bg.png);
+	font-size: 11px;
+	color: #fff;
+	margin: 0px;
+	margin-top: 3px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+	.browse:hover{
+		background: url(header_mask.png);
+		color: aqua;
+	}
+.acount{
+	background: url(link_bg.png);
+	font-size: 11px;
+	color: #fff;
+	margin: 0px;
+	margin-top: 3px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+ 	.acount:hover{
+		background: url(header_mask.png);
+		color: aqua;
+	}
+/*********End*******/
+
+
+/*********ADD DATA AREA********/
+#main_area{
+	width: 625px;
+	height: 316px;
+	float: left;
+	margin-bottom: 20px;
+	background: #3F3F3F url(homebg.jpg);
+}
+
+textarea{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.uploadbtn{
+	margin-top: 10px;
+	margin-left: 41px;
+	color: #fff;
+}
+#addmore{
+	 color: #1182F4;
+	 font-size: 78%; 
+	 font-family: tahoma;
+	 margin-left: 40px;
+}
+/*********END********/
+
+
+/*********ACOUNT Area********/
+#acount{
+	display: none;
+	background: #3F3F3F url(homebg.jpg);
+	width: 625px;
+	height: 316px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.acountheader{
+	height: 40px;
+	font-family: Tahoma;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 2px;
+	margin-left: 35px;
+	margin-bottom: 30px;
+	padding-top: 15px;
+	cursor: pointer;
+	color: #1182f4;
+	border-bottom: 1px solid #1182f4;
+	width: 220px;
+}
+#a{
+	float: left;
+}
+.acountcancel{
+	float: left;
+	text-align: left;
+	display: none;
+	color: #1182f4;
+	cursor: pointer;
+	font-family: tahoma;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+}	
+.acountcancel:hover{
+	text-decoration: underline;
+}
+#acount #my_acount{
+	float: left;
+	margin-top: 70px;
+	padding-top: 30px;
+	width: 350px;
+	margin-bottom: 100px;
+	height: 150px;
+}	
+	#acount #my_acount .b{
+		border: 1px solid #000;
+		margin: 10px;
+		color:#1182F4;
+	}
+	#acount #my_acount tr .s{
+		width: 80px;
+	}
+.acountbar{
+	float: left;
+	margin-top: 50px;
+	padding-top: 30px;
+	width: 290px;
+	background: url('bg.jpg');
+	margin-bottom: 100px;
+	display: none;
+}
+.edit{
+	text-align: left;
+	color: #1182f4;
+	cursor: pointer;
+	font-family: tahoma;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+}
+.edit:hover{
+	text-decoration: underline;
+}
+.updatetxt{
+	color: red;
+}
+#acount ul #success_update{
+	float: left;
+	display: none; 
+	padding: 15px; 
+	color: #000;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 80%;
+	width: 400px;
+	margin-left: 100px;
+	text-align: center;
+	background: url(check.png) no-repeat;
+}
+/*********END********/
+
+
+/*********DATA AREA********/
+#data{
+	display: none;
+	width: 625px;
+	height: 316px;
+	float: left;
+	margin-bottom: 20px;
+	overflow: auto;
+	background: #3F3F3F url(homebg.jpg);
+}
+#edit_info{
+	float: left;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 15px;
+}
+#edit_info:hover{
+	background: url(header_mask.png) repeat-x;
+}
+
+#files_area{
+	margin-left: 70px;
+	float: left;
+}
+.img_title{
+	margin: 0px;
+	text-align: left;
+	padding-left: 5px;
+	font-family: Tahoma;
+	font-size: 95%;
+	color: #1182f4;
+}
+.edit_inputs{
+	height: 5px;
+	margin: 1px;
+}
+.edit_inputstextarea{
+	background: #333333;
+	margin: 1px;
+	margin-left: 10px;
+}
+img{
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+/*********END********/
+
+
+/*********ADD DATA AREA********/
+#add_data{
+	display: none;
+	background: #3F3F3F url(homebg.jpg);
+	width: 625px;
+	height: 316px;
+	float: left;
+	margin-bottom: 20px;
+}
+.popup{
+	margin: 20px;
+	margin-left: 45em;
+	color: #1182f4;
+}
+	.popup:hover{
+		text-decoration:underline;
+	}
+	
+}
+
+/*********END********/
+
+/*********USER LIST-----*/
+#user_list_view{
+	width: 625px;
+	height: 316px;
+	float: left;
+	margin-bottom: 20px;
+	overflow: auto;
+	background: #3F3F3F url(homebg.jpg);
+}
+/**************************END**************************/
+
+
+
+
+
+
+/*******************************NAVIGATI0N BAR SECTIONS******************************/
+
+/**************************LOGIN AREA CSS**************************/
+#nav li{
+	height: 20px;
+	font-size: 12px;
+}
+#nav li:hover{
+	background: url(header_mask.png);
+}
+
+#nav li a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	text-align: center;
+	font-size: 11px;
+	padding: 3px;
+	width: 50px;
+	margin: 0px auto;
+}
+
+.blogview{
+	cursor: pointer;
+}
+/**********************************END*********************************/
+
+
+
+
+/*****************************LOG IN FIELD*****************************/
+.errors{                     /* VALIDATION */
+	color: red;
+	list-style: none;
+	margin-left: 27px;
+	cursor: pointer;
+}
+.red{
+	font-size: 12px;
+	border: 1px solid red;
+	padding: 3px;
+	width: 300px;
+}
+.redlog{
+	font-family: tahoma;
+	color: #fff;
+	font-size:  11px;
+	width: 500px;
+	margin-left: 0px;
+	padding: 5px;
+	border: 1px solid red;
+	margin: 2px;
+}
+/**********************************END*********************************/
+
+
+
+
+
+
+
+
+/*********************************FOOTER*********************************/
+#footer{
+	clear: both;
+	color: gray;
+	text-align: center;
+	padding-bottom: 50px;
+	border-top: 1px solid #ccc;
+}
+#footer ul li{
+	margin-top:10px;
+	display: inline-block;
+	list-style: none;
+	font-family: Tahoma;
+	font-size: 90%; 
+	cursor: pointer;
+}
+/**********************************END*********************************/
+
+
+
+
+
+
+
+
+/*********************OVER FLOW********************/
+#register_error{
+	background: #3F3F3F url(registerbg.jpg) 0 100% repeat-x;
+	width: 625px;
+	height: 316px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#acount_error{
+	background: #3F3F3F url(acount.jpg) 0 100% repeat-x;
+	width: 625px;
+	height: 316px;
+	float: left;
+	margin-bottom: 20px;
+}
+.acountbar_error{
+	margin-left:250px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	width: 290px;
+	background: url('bg.jpg');
+	margin-bottom: 100px;
+}
+#side1{
+	float:  left;
+	margin-left: 50px;
+}
+#side2{
+	float:  left;
+}
+
+label{
+	width: 30px;
+}
+
+.inp_two li{
+	display: inline;
+}
+/***********************END************************/
+
+/*******************LOADER CSS******************/
+.loader {
+   min-height: 100px;
+   height:auto !important;
+   height: 100px;
+   width: 150px;
+   margin-left: 250px;
+   background: url(ajaxloader.gif) no-repeat;
+}
+
+
+/************BLOG PAGE CSS**************/
+#blog_page{	
+	float: left;
+	margin-left: 5px;
+	border-top: 0px;
+	margin-bottom: 20px;
+	margin: auto;	
+	width: 900px;
+}
+#blog_post{
+	margin-bottom: 10px;
+	width: 450px;
+	background: url(noise_pattern_bg.png);
+	-webkit-border-radius: 3px;
+}
+#blog_page #blog_post .botton_post{
+	margin: 0px auto;
+	margin-bottom: 5px;
+	margin-left: 343px;
+	display: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#blog_page #blog_post .bodyfake{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: 0px;
+	border: 1px solid #ccc;
+}
+#blog_page #blog_post .body{
+	border: 1px solid #ccc;
+	display: none;
+	margin: 0px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#poser{
+	width: 516px;
+	float: left;
+	border: 1px solid #ccc; 
+	padding: 0px;
+	width: 455px;
+	margin-bottom: 20px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	overflow: auto;
+}
+#comments{
+	width: 516px;
+	border: 1px solid #ccc; 
+	width: 455px;
+	margin-top: 20px;
+	
+}
+.entries_display{
+	border: 3px solid #ccc;
+	width: 455px;
+	margin-left: 20px;
+	margin: 20px;
+}
+.title{
+	color: #1182F4;
+	font-size: 90%;
+	margin: 2px;
+	width: 450px;
+	background: #BCC9E6;
+}
+.entries{
+	color: #000;
+	font-size: 90%;
+	width: 455px;
+	float: left;
+	margin-bottom: 15px;
+	text-align: -webkit-match-parent;
+	text-align: -moz-match-parent;
+}
+.box{
+	color: #1182F4;
+	font-size: 90%;
+	margin: 3px;
+	border: 1px solid gray;
+	display: none;
+	float: left;
+}
+#body{
+	width: 445px;
+	margin: 2px;
+	padding:2px;
+	border: 1px solid #ccc;
+	float: left;
+	background: url(noise_pattern_bg.png);
+}
+.show_comments{
+	margin: 2px;
+	font-size: 11px;
+	border: 1px solid #ccc;
+	padding-left: 3px;
+	float: left;
+	width: 446px;
+	background: url(noise_pattern_bg.png);
+	margin-bottom:20px;
+}
+/*anouncedment area*/
+#anounced_area{
+	float: left;
+	width: 410px;
+	margin-left: 20px;
+	color: #333;
+}
+#anounced_area header{
+	margin-bottom: 10px;
+	text-align: center;
+	background: #009FAA;
+	padding: 12px;
+	-webkit-border-radius: 30px 30px 0px 0px;
+	-moz-border-radius: 30px 30px 0px 0px;
+	border-radius: 30px 30px 0px 0px;
+}
+#anounced_area #an{
+	padding: 2px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	
+}
+/************BLOG END CSS**************/
+/**************ORDINARY USER STYLESHEET**************/
+#ordinary{
+	color: #555;
+	font-family: tahoma;
+	background: #3F3F3F url(homebg.jpg);
+	width: 845px;
+	height: 337px;
+	float: left;
+	margin-bottom: 20px;
+}
+#ordinary #s{
+	width: 844px;
+	float: left;
+	margin: 1px;
+}
+#ordinary #products{
+	float: left;
+	width: 500px;
+	height: 315px;
+	overflow: auto;
+}
+#ordinary #products2{
+	float: left;
+	width: 500px;
+	height: 315px;
+	overflow: scroll;
+}
+#ordinary #products2 #info{
+	border: 1px solid gray;
+	float: left;
+	width: 468px;
+	padding: 4px;
+	margin: 3px;
+}
+#ordinary #products #info{
+	border: 1px solid gray;
+	float: left;
+	width: 468px;
+	padding: 4px;
+	margin: 3px;
+}
+#ordinary #letter{
+	display: none;
+	float: left;
+	height: 250px;
+	margin-top: 25px;
+	width: 340px;
+}
+#ordinary #products #in{
+	float: left;
+	display: list-item;
+	width: 280px;
+	border: 1px solid #ccc;
+	margin: 2px;
+}
+#ordinary #products2 #in{
+	float: left;
+	display: list-item;
+	width: 280px;
+	border: 1px solid #ccc;
+	margin: 2px;
+}
+#ordinary #products2 ul #back{
+	margin: 10px;
+	cursor: pointer;
+}
+#ordinary #products #indes{
+	float: left;
+	display: list-item;
+	width: 280px;
+	height: 80px;
+	border: 1px solid #ccc;
+	margin: 2px;
+}
+#ordinary #l{
+	float: left;
+	height: 250px;
+	margin-top: 25px;
+	width: 340px;
+}
+#ordinary #show{
+	cursor: pointer;
+	border: 1px solid gray;
+	float: left;
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 139px;
+	text-align: center;
+	font-weight: bold;
+	background:#99BC99;
+	-webkit-border-radius: 50px 5px 0px 0px;
+	-moz-border-radius: 50px 5px 0px 0px;
+	border-radius: 50px 5px 0px 0px;
+}
+#ordinary #show_inbox{
+	cursor: pointer;
+	border: 1px solid gray;
+	float: right;
+	width: 200px;
+	margin-right: 92px;
+	text-align: center;
+	font-weight: bold;
+	background:#99BC99;
+	-webkit-border-radius: 0px 0px 50px 5px;
+	-moz-border-radius: 0px 0px 50px 5px;
+	border-radius: 0px 5px 50px 5px;
+}
+#ordinary #messages{
+	border: 1px solid gray;
+	float: left;
+	height: 250px;
+	margin-bottom: 25px;
+	width: 340px;
+	overflow: auto;
+	display: none;
+}
+#ordinary #letter #send{
+	-webkit-border-radius: 3px;
+	
+}
+/********************END********************/

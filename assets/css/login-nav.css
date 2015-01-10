@@ -1,0 +1,132 @@
+@charset "utf-8";
+* {
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+
+header, footer, article, section, aside{
+	display: block;
+}
+
+body {
+	background-color: #fff;
+	color: #fff;
+	font: 12px/1.5em Arial, Sans-serif;
+}
+#login_nav{
+	background: url(getstarted_background.gif) no-repeat;
+	width: 200px;
+	height: 350px;
+	float: left;
+	margin: auto;
+	margin-right: 20px;
+}
+.link_head{
+	background: #3F3F3F url(gradient_30_down_25.png) 0 100% repeat-x;
+	border-top: 1px solid #333;
+	color: #F9F9F9;
+	line-height: 1em;
+	padding: 8px 9px 8px 9px;
+	font-size: 88%;
+	border-bottom: 1px solid #6F8787;
+}
+
+.home-view{
+	background: url(link_bg.png);
+	font-size: 90%;
+	margin: 0px;
+	margin-top: 3px;
+	padding-left: 10px;
+	cursor: pointer;
+	margin: auto;
+}
+	.home-view:hover{
+		background: url(header_mask.png);
+		color: aqua;
+	}
+
+.login-view{
+	background: url(link_bg.png);
+	font-size: 90%;
+	margin: 0px;
+	margin-top: 3px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+	.login-view:hover{
+		background: url(header_mask.png);
+		color: aqua;
+	}
+
+.register-view{
+	background: url(link_bg.png);
+	font-size: 90%;
+	margin: 0px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+	.register-view:hover{
+		background: url(header_mask.png);
+		color: aqua;
+	}
+	
+.description-view{
+	background: url(link_bg.png);
+	font-size: 90%;
+	margin: 0px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+	.description-view:hover{
+		background: url(header_mask.png);
+		color: aqua;
+	}
+
+.about-view{
+	background: url(link_bg.png);
+	font-size: 90%;
+	margin: 0px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+	.about-view:hover{
+		background: url(header_mask.png);
+		color: aqua;
+	}
+	
+.comments-view{
+	background: url(link_bg.png);
+	font-size: 90%;
+	margin: 0px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+	.comments-view:hover{
+		background: url(header_mask.png);
+		color: aqua;
+	}
+
+.others-view{
+	background: url(link_bg.png);
+	font-size: 90%;
+	margin: 0px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+	.others-view:hover{
+		background: url(header_mask.png);
+		color: aqua;
+	}
+
+
